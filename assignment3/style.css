@@ -1,0 +1,36 @@
+header {
+  color: #6a2445;
+  background-color: #ff84a3;
+}
+
+main {
+  background-color: #ffd7e1;
+  color: #6a2445;
+}
+
+nav {
+  background-color: #d6b5c0;
+  color: #99435b;
+}
+
+a:link {
+ color: #d53515;
+}
+
+a:visited {
+ color: #274e13;
+}
+
+a:hover {
+ color: #fffa84;
+}
+
+.purble {
+  color: #8e53e5;
+}
+
+.ornge {
+  background-color: #e58e53;
+  color: #ffce84;
+  font-weight: bold;
+}
