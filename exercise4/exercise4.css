@@ -1,0 +1,44 @@
+header {
+  background-color: #52b5ff;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  background-color: #f5ff52;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  background-color: #33ce55;
+}
+
+h4 {
+  background-color: green;
+  color: yellow;
+}
+
+.orange {
+  color: orange;
+}
+
+h5 {
+  color: purple;
+}
+
+a:link {
+ color: green;
+}
+
+a:hover {
+ color: red;
+}
