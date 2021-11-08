@@ -1,0 +1,132 @@
+#wrapper{
+  margin: 1em auto;
+  padding: 10px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+body {
+  background-color: #000000;
+  padding: 10px;
+}
+
+header {
+  grid-column: span 12;
+  background-image: url(Wilder.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  text-align: center;
+  color: white;
+  height: 600px;
+}
+
+.the {
+  font-size: 100px;
+  line-height: 0px;
+  padding-top: 80px;
+  font-family: 'Bungee', cursive;
+}
+
+.artwork {
+  font-size: 200px;
+  line-height: 200px;
+  padding-top: 50px;
+  font-family: 'Bungee', cursive;
+}
+.of {
+  font-size: 100px;
+  line-height: 100px;
+  font-family: 'Bungee', cursive;
+}
+
+.name {
+  font-size: 150px;
+  line-height: 150px;
+  font-family: 'Bungee', cursive;
+}
+
+nav {
+    grid-column: span 12;
+    padding: 40px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+nav li {
+  width: 400px;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav li a {
+  display: block;
+  background-color: white;
+  border: 3px solid black;
+  padding: 1em;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 100px;
+  transition: background-color 1.0s;
+}
+nav a:hover {
+  background-color: #c97aff;
+}
+
+main {
+  grid-column: span 12;
+  width: 1500px;
+  display: inline;
+  text-align: center;
+  margin:auto;
+  background-color: black;
+}
+
+img.left {
+  float:left;
+  display: inline;
+  padding: 50px;
+}
+img.right {
+  float: right;
+  display: inline;
+    padding: 50px;
+}
+
+.about {
+  margin-left: 380px;
+  margin-right: 380px;
+  height: 180px;
+  padding-top: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+img.small {
+  width: 300px;
+  padding: 20px;
+
+}
+
+footer {
+  grid-column: span 12;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  border-top: 1px solid gray;
+}
+
+iframe {
+  grid-column: span 12;
+  text-align: center;
+  margin:auto;
+  padding-bottom: 50px;
+
+}
