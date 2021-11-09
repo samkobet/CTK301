@@ -1,0 +1,118 @@
+#wrapper{
+  margin: 1em auto;
+  padding: 0;
+  width: 1000px;
+  border: 3px solid #00479f;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+body {
+  background-color: gray;
+}
+
+header {
+  grid-column: span 12;
+  color: #66ccff;
+  font-style: italic;
+  background: rgb(0,136,232);
+  background: linear-gradient(180deg, rgba(0,136,232,1) 0%, rgba(0,71,159,1) 100%);
+}
+
+h1 {
+  padding-left: 40px;
+  font-family: Helvetica, sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  color: #66ccff;
+}
+
+nav {
+    grid-column: span 12;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-style: normal;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 330px;
+  display: inline-block;
+  padding: 0px;
+}
+
+nav li a {
+  display: block;
+  background: rgb(0,136,232);
+  background: linear-gradient(180deg, rgba(0,136,232,1) 0%, rgba(0,71,159,1) 100%);
+  padding: 1em;
+  color: #66ccff;
+  text-decoration: none;
+}
+
+main {
+  padding-left: 10px;
+  margin: 10px;
+  grid-column: span 12;
+}
+
+h2 {
+  color: #00479f;
+  font family: sans-serif;
+  border-bottom: 2px solid #00479f;
+  font-family: Helvetica, sans-serif;
+}
+
+.float {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #00479f;
+  display: inline-block;
+}
+
+footer {
+  background-color: #d01d00;
+  grid-column: span 12;
+  padding: 10px;
+  padding-left: 30px;
+  border-top: 3px solid #00479f;
+}
+
+main a {
+  color: #f04304;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:hover {
+  color: #f0c104;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.floater {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #00479f;
+  display: inline-block;
+}
+
+.gallery {
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 2px solid #00479f;
+  display: inline-block;
+}
